@@ -845,18 +845,372 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1627913115093	Marionette	INFO	Listening on port 55509
 1627913115461	Marionette	WARN	TLS certificate errors will be ignored for this session
 [Parent 23800, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
-1627913182306	geckodriver	INFO	Listening on 127.0.0.1:55676
-1627913185332	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofilebxZmk0"
-1627913185647	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofilebxZmk0\\search.json.mozlz4", (void 0)))
-1627913187663	Marionette	INFO	Listening on port 55685
-1627913188009	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1627913533021	Marionette	INFO	Stopped listening on port 55509
+][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[Parent 19160, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1627919104508	Marionette	INFO	Stopped listening on port 55685
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+6498821	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileDN2Kyy\\search.json.mozlz4", (void 0)))
+1627916500709	Marionette	INFO	Listening on port 54983
+1627916501201	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1627919103257	Marionette	INFO	Stopped listening on port 54983
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[Child 40128, MediaDecoderStateMachine #2] WARNING: 212ac837ba0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 40128, MediaDecoderStateMachine #2] WARNING: 212ac837ba0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 40128, MediaDecoderStateMachine #2] WARNING: 212ac837ba0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 40128, MediaDecoderStateMachine #2] WARNING: 212b0ed4d60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 40128, MediaDecoderStateMachine #2] WARNING: 212b0ed4820 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 40128, MediaDecoderStateMachine #2] WARNING: 212b1946e40 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1627919102234	Marionette	INFO	Stopped listening on port 51371
+4594	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 19092, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1627916776461	Marionette	INFO	Stopped listening on port 51819
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627916829509	geckodriver	INFO	Listening on 127.0.0.1:52007
+1627916832538	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileHDJyUH"
+1627916832804	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileHDJyUH\\search.json.mozlz4", (void 0)))
+1627916834712	Marionette	INFO	Listening on port 52016
+1627916835227	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627916859552	Marionette	INFO	Stopped listening on port 52011627916860606	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileThOUua"
+1627916860874	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileThOUua\\search.json.mozlz4", (void 0)))
+1627916862995	Marionette	INFO	Listening on port 52098
+1627916863294	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x670008,name=PMessagePort::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1627916907263	Marionette	INFO	Stopped listening on port 52098
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627916940891	geckodriver	INFO	Listening on 127.0.0.1:52269
+1627916943918	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofile8qT90w"
+1627916944200	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofile8qT90w\\search.json.mozlz4", (void 0)))
+1627916946073	Marionette	INFO	Listening on port 52279
+1627916946106	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x670008,name=PMessagePort::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[Child 22088, MediaDecoderStateMachine #2] WARNING: 1a42bca3660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 22088, MediaDecoderStateMachine #2] WARNING: 1a42bca3660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 22088, MediaDecoderStateMachine #2] WARNING: 1a42bca3660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 22088, MediaDecoderStateMachine #2] WARNING: 1a42c030820 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 22088, MediaDecoderStateMachine #2] WARNING: 1a42d1e2e40 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 22088, MediaDecoderStateMachine #2] WARNING: 1a42d1e2740 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1627919101260	Marionette	INFO	Stopped listening on port 52279
+b4a6d60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 38032, MediaDecoderStateMachine #2] WARNING: 2212cb402e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 38032, MediaDecoderStateMachine #2] WARNING: 2211d8f0740 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 38032, MediaDecoderStateMachine #2] WARNING: 2211cd84900 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1627919100454	Marionette	INFO	Stopped listening on port 51085
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Machine #3] WARNING: 1f9a4d0cac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 38996, MediaDecoderStateMachine #3] WARNING: 1f9a4d0cac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 38996, MediaDecoderStateMachine #3] WARNING: 1f9a4d0cac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 38996, MediaDecoderStateMachine #3] WARNING: 1f9a6ff3040 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 38996, MediaDecoderStateMachine #3] WARNING: 1f9a73b1580 Could not set cubeb
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messa[Child 38996, MediaD1627919098631	Marionette	INFO	Stopped listening on port 60708
+ stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1627919099551	Marionette	INFO	Stopped listening on port 49787
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofilevk3ko4"
+1627919015046	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofilevk3ko4\\search.json.mozlz4", (void 0)))
+1627919017067	Marionette	INFO	Listening on port 52599
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+1627919017448	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 31756, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+[Parent 31756, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1627919261307	Marionette	INFO	Stopped listening on port 52599
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627919315698	geckodriver	INFO	Listening on 127.0.0.1:53983
+1627919318735	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileNJqxY4"
+1627919319022	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileNJqxY4\\search.json.mozlz4", (void 0)))
+1627919320914	Marionette	INFO	Listening on port 53993
+1627919321417	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: (new Error("SessionFile is closeconsole.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=25386578000","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3526,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","chrome://global/content/elements/browser-custom-element.js:get loadContext:388","chrome://global/content/elements/browser-custom-element.js:construct:1025","chrome://global/content/elements/browser-custom-element.js:connectedCallback:326","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:414","chrome://browser/content/tabbrowser.js:init:50","chrome://browser/content/browser.js:onDOMContentLoaded:1720"]}] Barrier: profile-before-change
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2123: TypeError: subject.QueryInterface is not a function
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xA00001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xA00001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xA00001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xA00001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xA00001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xA00001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xA00001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xA00001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xA00001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xA00001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1627920521489	Marionette	INFO	Stopped listening on port 52936
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+re verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1627920485339	Marionette	INFO	Stopped listening on port 51576
+ta\\Local\\Temp\\rust_mozprofileSQ50p8\\search.json.mozlz4", (void 0)))
+1627920276451	Marionette	INFO	Listening on port 50052
+1627920276553	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x670008,name=PMessagePort::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 27824, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1627920473692	Marionette	INFO	Stopped listening on port 50052
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+0329132	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofilegxdutP\\search.json.mozlz4", (void 0)))
+1627920331319	Marionette	INFO	Listening on port 55844
+1627920331501	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=12d9d21f000","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3526,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","chrome://global/content/elements/browser-custom-element.js:get loadContext:388","chrome://global/content/elements/browser-custom-element.js:construct:1025","chrome://global/content/elements/browser-custom-element.js:connectedCallback:326","chrome://browser/con1627920523561	Marionette	INFO	Stopped listening on port 56006
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ Barrier: profile-before-change
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2123: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1627920508862	Marionette	INFO	Stopped listening on port 55844
+1627920606296	geckodriver	INFO	Listening on 127.0.0.1:55193
+1627920609315	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileGxxJHh"
+1627920609734	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileGxxJHh\\search.json.mozlz4", (void 0)))
+1627920611742	Marionette	INFO	Listening on port 55204
+1627920611997	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+[Parent 40324, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1627920654877	Marionette	INFO	Stopped listening on port 55204
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627920668020	geckodriver	INFO	Listening on 127.0.0.1:55344
+1627920671044	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofilebBJzk4"
+1627920671330	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofilebBJzk4\\search.json.mozlz4", (void 0)))
+1627920673226	Marionette	INFO	Listening on port 55355
+1627920673711	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x670008,name=PMessagePort::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteCommands'
+1627920830136	Marionette	INFO	Stopped listening on port 55355
+1627920845086	geckodriver	INFO	Listening on 127.0.0.1:51296
+1627920848124	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileVgsbZs"
+1627920848455	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileVgsbZs\\search.json.mozlz4", (void 0)))
+1627920850345	Marionette	INFO	Listening on port 51305
+1627920850803	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=22355824800","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3526,"stack":["resource://gre/modul1627920932143	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileD5s2x9\\search.json.mozlz4", (void 0)))
+1627920934307	Marionette	INFO	Listening on port 64573
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+1627920934483	MaJavaScript error: resource:///modules/sessionstore/SessionStore.jsm, liJavaScript error: https://vk.com/al_im.php?__query=im&_full_page=true&_ref=left_nav&_rndVer=89859&al=-1&al_id=497677293, line 12: TypeError: parent is null
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=26c97420800","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3526,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","chrome://gconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofilesxakag\\search.json.mozlz4", (void 0)))
+1627921004141	Marionette	INFO	Listening on port 64767
+1627921004566	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_untrustedmodules_ping
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=19dee291800","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3526,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","chrome://global/content/elements/browser-custom-element.js:get loadContext:388","chrome://global/content/elements/browser-custom-element.js:construct:1025","chrome://global/content/elements/browser-custom-element.js:connectedCallback:326","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:414","chrome://browser/content/tabbrowser.js:init:50","chrome://browser/content/browser.js:onDOMContentLoaded:1720"]}] Barrier: profile-before-change
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2123: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1627921080800	Marionette	INFO	Stopped listening on port 64767
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627921130629	geckodriver	INFO	Listening on 127.0.0.1:58150
+1627921133659	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileqsIeDg"
+1627921133968	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileqsIeDg\\search.json.mozlz4", (void 0)))
+1627921135818	Marionette	INFO	Listening on port 58161
+1627921135854	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627921193387	geckodriver	INFO	Listening on 127.0.0.1:53679
+1627921196410	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileFmVwK7"
+1627921196687	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofileFmVwK7\\search.json.mozlz4", (void 0)))
+1627921198770	Marionette	INFO	Listening on port 53692
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+1627921199096	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1627921230096	Marionette	INFO	Stopped listening on port 53692
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627921248502	geckodriver	INFO	Listening on 127.0.0.1:55729
+1627921251536	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofilePQtHWs"
+1627921251808	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deuts\\AppData\\Local\\Temp\\rust_mozprofilePQtHWs\\search.json.mozlz4", (void 0)))
+1627921253767	Marionette	INFO	Listening on port 55742
+1627921254224	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://vk.com/al_im.php?__query=im&_full_page=true&_ref=left_nav&_rndVer=71545&al=-1&al_id=497677293, line 12: TypeError: parent is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1627921302754	Marionette	INFO	Stopped listening on port 55742
