@@ -8,12 +8,9 @@ driver = webdriver.Firefox( executable_path='geckodriver.exe')
 driver.get("https://vk.com/feed")
 
 name = str(input('Ану вводи, кому писать будешь(лучше не ошибись нахуй):'))
-#number = str(input('Ану вводи, свой номер(лучше не ошибись нахуй):'))
-#pass_ = str(input('Ану вводи, свой пароль(я ВАЩЕ ВСЕ помню):'))
+number = str(input('Ану вводи, свой номер(лучше не ошибись нахуй):'))
+pass_ = str(input('Ану вводи, свой пароль(я ВАЩЕ ВСЕ помню):'))
 max_ = int(input('Ану вводи, количество итераций(я люблю БОЛЬШИЕ):'))
-
-number = '89676667778'
-pass_ = 'Verywell'
 
 elem = driver.find_element_by_id("email")
 elem.send_keys("{}".format(number))
@@ -37,7 +34,5 @@ _str = '☠'*1000
 for i in range(1, max_):
     elem.send_keys(_str)
     elem.send_keys(Keys.ENTER)
-
-
 
 assert "No results found." not in driver.page_source
